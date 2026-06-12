@@ -1,0 +1,23 @@
+Redeclaring a variable in Java is not allowed, but jshell is allowing it.
+It is allowed to re assign a value to a once declared variable.
+shotcut to view (/list, /var, /list -all, /list -start).
+
+What is a class?
+A class is a building block of Object-Oriented Programming, and allows us to build custom data types.
+-> A class is a blueprint or a template of an Object, or to create an object.
+-> An object is an instance of a class.
+
+What is a wrapper Class
+-> Java uses the concept of a wrapper class, for all of its eight primitive data types.
+
+Overflow and Underflow in Java
+# If you try to put a larger value than the Maximum value into an int, you'll create something called an Overflow situation.
+	-> The maximum value, when it overflows, wraps around the minimum value, and just continues processing without an error.
+# If you try to put a smaller than the minimum value into an int, you cause an Underflow to occur.
+	->The minimum value, when it underflows, wraps around to the maximum value, and continues processing.
+* These situations are also known as integer wraparounds.
+* Those are not the behaviors you want in your application/ code, you need to be aware that this could happen, and choose the appropriate data type.
+
+Access modifier -> public
+method declaration ->
+Void ->
